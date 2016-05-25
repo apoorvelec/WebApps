@@ -7,3 +7,5 @@ This is a sample web app which just displays an HTML page having text "Hello Ser
 
 2}ServletExample:
 This is a sample web app which is a slight advancement over the previous Hello Servlet web app. It uses Java Server Pages (JSP) to get user input and output the response.
+
+3}CalculatorWebApp: Coming soon!!!. This will be a web app which will be intended to have the functionality of a simple calculator.

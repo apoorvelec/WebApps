@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="72" version="2.0">
+<workbench progressCount="59" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="130" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -160,7 +160,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2657974" ratioLeft="265" ratioRight="732" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.69966996" ratioLeft="424" ratioRight="182" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -215,20 +215,20 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="ServletExample/src/HelloWorld.java">
+<persistable path="/ServletExample/src/HelloWorld.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="ServletExample/WebContent/WEB-INF/web.xml">
+<persistable path="/ServletExample/WebContent/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Home.jsp" tooltip="ServletExample/WebContent/Home.jsp">
+<persistable path="/ServletExample/WebContent/Home.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="ServletExample/src/somepackage/HelloWorld.java">
+<persistable path="/ServletExample/src/somepackage/HelloWorld.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="CrunchifyJSPServletExample/WebContent/WEB-INF/web.xml">
 <persistable path="/CrunchifyJSPServletExample/WebContent/WEB-INF/web.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Crunchify.jsp" tooltip="CrunchifyJSPServletExample/WebContent/Crunchify.jsp">
-<persistable path="/CrunchifyJSPServletExample/WebContent/Crunchify.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Crunchify.jsp" tooltip="CrunchifyJSPServletExample/WebContent/WEB-INF/Crunchify.jsp">
-<persistable path="/CrunchifyJSPServletExample/WebContent/WEB-INF/Crunchify.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloCrunchify.java" tooltip="CrunchifyJSPServletExample/src/com/crunchify/jsp/servlet/HelloCrunchify.java">
-<persistable path="/CrunchifyJSPServletExample/src/com/crunchify/jsp/servlet/HelloCrunchify.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Hello.java" tooltip="HelloWorld/src/Hello.java">
-<persistable path="/HelloWorld/src/Hello.java"/>
 </file>
 </mruList>
 </workbench>
