@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="HelloWorld" path="/HelloWorld" reloadable="true" source="org.eclipse.jst.jee.server:HelloWorld"/><Context docBase="CrunchifyJSPServletExample" path="/CrunchifyJSPServletExample" reloadable="true" source="org.eclipse.jst.jee.server:CrunchifyJSPServletExample"/><Context docBase="ServletExample" path="/ServletExample" reloadable="true" source="org.eclipse.jst.jee.server:ServletExample"/></Host>
+      <Context docBase="HelloWorld" path="/HelloWorld" reloadable="true" source="org.eclipse.jst.jee.server:HelloWorld"/><Context docBase="CrunchifyJSPServletExample" path="/CrunchifyJSPServletExample" reloadable="true" source="org.eclipse.jst.jee.server:CrunchifyJSPServletExample"/><Context docBase="ServletExample" path="/ServletExample" reloadable="true" source="org.eclipse.jst.jee.server:ServletExample"/><Context docBase="Calculator" path="/Calculator" reloadable="true" source="org.eclipse.jst.jee.server:Calculator"/></Host>
     </Engine>
   </Service>
 </Server>

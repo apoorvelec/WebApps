@@ -1,0 +1,7 @@
+package com.columbia.cs;
+
+import javax.servlet.http.HttpServlet;
+
+public class Calculator extends HttpServlet {
+
+}

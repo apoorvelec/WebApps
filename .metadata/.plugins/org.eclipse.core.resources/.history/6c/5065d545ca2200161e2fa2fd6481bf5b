@@ -1,0 +1,22 @@
+package com.columbia.cs;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Calculator extends HttpServlet {
+
+	protected void doGet(HttpServletRequest request, 
+		      HttpServletResponse response){
+		try {
+			PrintWriter writer = response.getWriter();
+			writer.print("Hello!");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
