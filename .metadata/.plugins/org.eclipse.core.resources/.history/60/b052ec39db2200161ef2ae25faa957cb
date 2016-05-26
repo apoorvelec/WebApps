@@ -24,7 +24,7 @@ public class Calculator extends HttpServlet {
 	}
 	
 	protected boolean authenticate(String username, String password){
-		if(username.equals("ap3341") && password.equals("ap3341")){
+		if(username=="ap3341" && password == "ap3341"){
 			return true;
 		}
 		return false;
