@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="59" version="2.0">
+<workbench progressCount="66" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="130" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -21,9 +21,11 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -33,10 +35,21 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculator.java" partName="Calculator.java" path="C:/Users/Hp/Documents/GitHub/WebApps/Calculator/src/com/columbia/cs/Calculator.java" title="Calculator.java" tooltip="Calculator/src/com/columbia/cs/Calculator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Calculator/src/com/columbia/cs/Calculator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="667" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.html.core.htmlsource.source" name="Login.html" partName="Login.html" path="C:/Users/Hp/Documents/GitHub/WebApps/Calculator/WebContent/Login.html" title="Login.html" tooltip="Calculator/WebContent/Login.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Calculator/WebContent/Login.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="215" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -197,7 +210,164 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/ServletExample/WebContent/Home.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/Calculator/WebContent/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Calculator/src/com/columbia/cs/Calculator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ServletExample/WebContent/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/Calculator/WebContent/WEB-INF/Login.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ServletExample/src/HelloWorld.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/Calculator/WebContent/Login.html"/>
+</editors>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="622" y="0"/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="719" y="0"/>
+</item>
+<item historyLabel="Home.jsp" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="622" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="12" y="0"/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="12" y="0"/>
+</item>
+<item historyLabel="Login.html" index="4">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="5">
+<position info="not_deleted" x="435" y="0"/>
+</item>
+<item historyLabel="Home.jsp" index="0">
+<position info="not_deleted" x="563" y="0"/>
+</item>
+<item historyLabel="Login.html" index="4">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="Home.jsp" index="0">
+<position info="not_deleted" x="563" y="0"/>
+</item>
+<item historyLabel="Login.html" index="4">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="5">
+<position info="not_deleted" x="435" y="0"/>
+</item>
+<item historyLabel="Login.html" index="4">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="694" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="694" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="694" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="694" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="web.xml" index="3">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="Home.jsp" index="0">
+<position info="not_deleted" x="563" y="0"/>
+</item>
+<item historyLabel="Login.html" index="4">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position info="not_deleted" x="681" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="5">
+<position info="not_deleted" x="420" y="775"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position info="not_deleted" x="681" y="0"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position/>
+</item>
+<item historyLabel="HelloWorld.java" index="5">
+<position info="not_deleted" x="285" y="916"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position info="not_deleted" x="1151" y="0"/>
+</item>
+<item historyLabel="Login.html" index="6">
+<position info="not_deleted" x="427" y="0"/>
+</item>
+<item historyLabel="Login.html" index="4">
+<position info="not_deleted" x="0" y="427"/>
+</item>
+<item historyLabel="Login.html" index="6">
+<position info="not_deleted" x="427" y="0"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position/>
+</item>
+<item historyLabel="web.xml" index="1">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="Login.html" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position info="not_deleted" x="667" y="0"/>
+</item>
+<item historyLabel="Calculator.java" index="2">
+<position info="not_deleted" x="667" y="0"/>
+</item>
+<item historyLabel="Login.html" index="6">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="Login.html" index="6">
+<position/>
+</item>
+<item active="true" historyLabel="Login.html" index="6">
+<position info="not_deleted" x="215" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -215,20 +385,14 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="ServletExample/src/HelloWorld.java">
-<persistable path="/ServletExample/src/HelloWorld.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="Login.html" tooltip="Calculator/WebContent/Login.html">
+<persistable path="/Calculator/WebContent/Login.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="ServletExample/WebContent/WEB-INF/web.xml">
 <persistable path="/ServletExample/WebContent/WEB-INF/web.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Home.jsp" tooltip="ServletExample/WebContent/Home.jsp">
-<persistable path="/ServletExample/WebContent/Home.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="ServletExample/src/somepackage/HelloWorld.java">
-<persistable path="/ServletExample/src/somepackage/HelloWorld.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="CrunchifyJSPServletExample/WebContent/WEB-INF/web.xml">
-<persistable path="/CrunchifyJSPServletExample/WebContent/WEB-INF/web.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="ServletExample/src/HelloWorld.java">
+<persistable path="/ServletExample/src/HelloWorld.java"/>
 </file>
 </mruList>
 </workbench>

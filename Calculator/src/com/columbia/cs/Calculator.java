@@ -13,7 +13,10 @@ public class Calculator extends HttpServlet {
 	protected void doGet(HttpServletRequest request, 
 		      HttpServletResponse response) throws ServletException, IOException 
 		  {
-		    PrintWriter out = response.getWriter(); 
-		    out.write("Hello!"); 
+		    String username = request.getParameter("Username");
+		    String password = request.getParameter("Password");
+		    PrintWriter writer = response.getWriter();
+		    response.setContentType("text/html");
+		    writer.write("Hello "+username+" "+password);
 		  }
 }
